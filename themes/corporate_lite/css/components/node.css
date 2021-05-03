@@ -27,6 +27,7 @@
 }
 .node__container {
   position: relative;
+  background-color: white;
 }
 .feed-icon {
   display: block;
