@@ -81,12 +81,10 @@
 {{ attach_library('corporate_lite/node') }}
 <article{{ attributes.addClass(classes) }}>
   <div class="node__container">
-  <h1>Isto +e um teste</h1>
     {% block node_side %}
     {% endblock %}
     <div{{ content_attributes.addClass('node__main-content', 'clearfix') }}>
       <header class="node__header">
-      <h1>Miguel</h1>
         {% block meta_area %}
           {{ title_prefix }}
           {% if not page %}
