@@ -1,0 +1,28 @@
+uuid: 4c9ab58d-b487-414e-824b-6ab296baf52a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_morada_gps_
+    - node.type.loja
+  module:
+    - geolocation
+id: node.loja.field_morada_gps_
+field_name: field_morada_gps_
+entity_type: node
+bundle: loja
+label: 'Morada (GPS)'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    lat_sin: '0.65313325255609'
+    lat_cos: '0.75724299561336'
+    lng_rad: '-0.1283476990818'
+    value: '40.778254377910095, -7.353781467602233'
+    lat: '40.778254377910095'
+    lng: ' -7.353781467602233'
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

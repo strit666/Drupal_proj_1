@@ -1,0 +1,38 @@
+uuid: 5af9127d-e2a6-4e6a-947a-3eb912f2468b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.loja.body
+    - field.field.node.loja.field_horario
+    - field.field.node.loja.field_local
+    - field.field.node.loja.field_morada_gps_
+    - field.field.node.loja.field_morada_link_
+    - node.type.loja
+  module:
+    - text
+    - user
+id: node.loja.teaser
+targetEntityType: node
+bundle: loja
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_horario: true
+  field_local: true
+  field_morada_gps_: true
+  field_morada_link_: true

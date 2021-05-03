@@ -1,0 +1,21 @@
+uuid: 1cf3afee-8ca6-4a99-b793-964a7ca7f61e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_horario
+    - node.type.loja
+id: node.loja.field_horario
+field_name: field_horario
+entity_type: node
+bundle: loja
+label: Horário
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '2.ª a 6.ª: 08h - 12h / 14h - 18h'
+default_value_callback: ''
+settings: {  }
+field_type: string

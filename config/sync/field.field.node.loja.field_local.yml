@@ -1,0 +1,19 @@
+uuid: 53c20a72-8932-486d-92a6-4865935820df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_local
+    - node.type.loja
+id: node.loja.field_local
+field_name: field_local
+entity_type: node
+bundle: loja
+label: Local
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

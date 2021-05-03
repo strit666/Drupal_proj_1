@@ -1,0 +1,14 @@
+uuid: d8bb40e9-c314-4e47-894f-75cf427117d5
+name: Drupal-8.9.1-ex1
+mail: Drupal-8.9.1-ex1@ex.ex
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

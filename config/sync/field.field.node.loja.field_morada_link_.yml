@@ -1,0 +1,28 @@
+uuid: 888a1532-50d1-4e3b-a295-2e23a4523b5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_morada_link_
+    - node.type.loja
+  module:
+    - link
+id: node.loja.field_morada_link_
+field_name: field_morada_link_
+entity_type: node
+bundle: loja
+label: 'Morada (Link)'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'http://www.google.com/maps/place/40.216526000000,%20-8.437296000000'
+    title: 'Ver no google maps'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

@@ -1,0 +1,18 @@
+uuid: 63e74d80-64b0-46e9-91ad-1355dfdd86e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.loja
+id: node.loja.title
+field_name: title
+entity_type: node
+bundle: loja
+label: Local
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
