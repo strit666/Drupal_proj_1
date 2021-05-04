@@ -31,7 +31,7 @@ global-styling:
       css/base/layout.css: { weight: 100 }
       css/base/typography.css: {}
     component:
-    #  css/components/article-2.css: {}
+      css/components/article-2.css: {}
       css/components/alert.css: {}
       css/components/accordion.css: {}
       css/components/block.css: {}
@@ -303,11 +303,6 @@ node-article:
     theme:
       css/theme/article-print.css: { media: print }
 
-article-2:
-  version: VERSION
-  css:
-    component:
-      css/components/article-2.css: {}
 
 node-images:
   version: VERSION
