@@ -499,6 +499,68 @@ nav > h2,
 .rtecenter {
   text-align: center;
 }
-/* table */
+/* Article-2 */
+
+.panel-pane{
+  display: block;
+}
+.pane-page-content {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.content-constrained > div {
+  background-color: white;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.pane-node-title h1 {
+  color: #000;
+  display: inline-block;
+  font-size: 2rem;
+  margin: 10px 0;
+  margin-bottom: 0.67669rem;
+  text-align: center;
+  width: 100%;
+  line-height: 2.066666666666667rem;
+}
+
+.view-servicos .servico {
+  color: white;
+  float: left;
+  height: 240px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.view-servicos .servico.onecol {
+  width: 25%;
+}
+.view-servicos .servico.towcols {
+  width: 50%;
+}
+
+.view-servicos .servico .back-card {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: none;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+}
 
 
