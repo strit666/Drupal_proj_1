@@ -1,0 +1,21 @@
+uuid: 7ed28e5c-f069-42a4-a59d-d1699ba27bd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_b_header
+    - node.type.article_2
+  module:
+    - text
+id: node.article_2.field_b_header
+field_name: field_b_header
+entity_type: node
+bundle: article_2
+label: B_Header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
